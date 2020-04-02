@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}
+        <title>Casa Criativa</title>
+    {% endblock title %}
+    {% include "headContent.html" %}
+</head>
+
+<body id="{{ bodyId }}">
+
+    <!-- Página Principal -->
+    <div id="container">
+        
+        {% block content %}
+        {% endblock content %}
+
+    </div>
+
+    <!-- Modal -->
+    {% include "modal.html" %}
+
+    <script src="/script.js"></script>
+</body>
+</html>

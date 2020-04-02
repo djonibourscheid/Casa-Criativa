@@ -1,0 +1,28 @@
+{
+  "name": "Casa-Criativa",
+  "version": "1.0.0",
+  "description": "O projeto Casa Criativa foi criado e desenvolvido durante a Semana OmniStack 11.0 da Rocketseat, no Workshop Dev. Tem como funcionalidade ser um gerenciador de ideias para sua vida.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djonibourscheid/Casa-Criativa.git"
+  },
+  "keywords": [],
+  "author": "zDMz#5671 // github.com/djonibourscheid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djonibourscheid/Casa-Criativa/issues"
+  },
+  "homepage": "https://github.com/djonibourscheid/Casa-Criativa#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
