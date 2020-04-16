@@ -4,7 +4,8 @@
   "description": "O projeto Casa Criativa foi criado e desenvolvido durante a Semana OmniStack 11.0 da Rocketseat, no Workshop Dev. Tem como funcionalidade ser um gerenciador de ideias para sua vida.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,6 @@
     "sqlite3": "^4.1.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.3"
   }
 }
