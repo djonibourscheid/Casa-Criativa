@@ -13,7 +13,7 @@ O projeto Casa Criativa foi criado e desenvolvido durante a Semana OmniStack 11.
 
 ## Para iniciar:
 
-> * *npm install*
+> * `npm install`
 
 Após o comando acima executar:
 *(executar apenas um dos comandos abaixo)*
