@@ -7,12 +7,9 @@ O projeto Casa Criativa foi criado e desenvolvido durante a Semana OmniStack 11.
 
 ## Para iniciar:
 
-> * *npm install express*
-> * *npm install nunjucks*
-> * *npm install sqlite3*
-> * *npm install nodemon -D*
+> * *npm install*
 
-Após os comandos acima executar:
+Após o comando acima executar:
 *(executar apenas um dos comandos abaixo)*
 
 >`npm start` **→** para abrir **sem** o nodemon
