@@ -5,11 +5,18 @@
             alt="Imagem de {{idea.title}}">
         <div class="content">
             <h3>{{idea.title}}</h3>
+
             <p>{{idea.category}}</p>
-            <class class="description">
-                {{idea.description}} 
-            </class>
-            <p><a href="{{idea.link}}" target="_blank"">Ir para ideia</a></p>
+
+            <p class="description">
+                {{idea.description}}
+            </p>
+
+            <p>
+                <a href="{{idea.link}}" target="_blank" rel="noopener noreferrer">
+                    Ir para ideia
+                </a>
+            </p>
         </div>
     </div>
 {% endfor %}
